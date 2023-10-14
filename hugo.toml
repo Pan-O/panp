@@ -1,8 +1,8 @@
 ##########################################
 # 站点配置
 
-baseURL = "https://example.com/"
-title = "Hugo 主题 MemE"
+baseURL = "https://panp.cc/"
+title = "Pan - 折腾的乐趣"
 languageCode = "zh-CN"
 hasCJKLanguage = true
 # 版权信息（支持 Markdown）
@@ -37,7 +37,7 @@ enableGitInfo = false
 enableRobotsTXT = true
 
 # 每一分页的文章数（仅对「文章摘要」首页布局有效）
-paginate = 5
+paginate = 6
 
 # URL 相关
 disablePathToLower = false
@@ -96,17 +96,17 @@ uglyURLs = false
 # 作者信息
 [author]
     # 名字
-    name = "reuixiy"
+    name = "PanNN"
     # 邮箱
-    email = "reuixiy@gmail.com"
+    email = "cool.panjianhao@gmail.com"
     # 座右铭或简介
-    motto = "Viva La Vida"
+    motto = "One Two THREE Go!"
     # 头像
     avatar = "/icons/apple-touch-icon.png"
     # 网站（默认值：baseURL）
-    website = "https://io-oi.me/"
+    website = "https://panp.cc/"
     # 推特
-    twitter = "reuixiy"
+    twitter = ""
 
 # 相关文章
 [related]
@@ -197,16 +197,16 @@ uglyURLs = false
     #     post = "home"
     [[menu.main]]
         pageref = "/posts/"
-        name = "文章"
+        name = "归档"
         weight = 2
         pre = "internal"
         post = "archive"
     [[menu.main]]
-        pageref = "/categories/"
-        name = "分类"
+        pageref = "/links/"
+        name = "友链"
         weight = 3
         pre = "internal"
-        post = "th"
+        post = "links"
     [[menu.main]]
         pageref = "/tags/"
         name = "标签"
@@ -269,11 +269,11 @@ uglyURLs = false
     # 品牌栏（在顶栏内）
 
     # 是否使用 SVG 图片
-    siteBrandSVG = false
+    siteBrandSVG = true
     # 如果是，请将你的 SVG 放到 `SVG.toml` 文
     # 件内，并配置以下项。单位：px。
-    siteBrandSVGWidth = 250
-    siteBrandSVGHeight = 100
+    siteBrandSVGWidth = 40
+    siteBrandSVGHeight = 40
     siteBrandSVGFill = "#fff"
     # 如果否，则会使用你的站点标题作为默认值，并
     # 以文字的形式显示，下方可配置字号和字色。字
@@ -343,16 +343,16 @@ uglyURLs = false
     # 说明：用于 JSON-LD、Open Graph
 
     # 站点的描述
-    siteDescription = "MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。"
+    siteDescription = "一个个人博客，在不断的学习中享受折腾的乐趣！"
     # 说明：用于 HTML 的头部元数据、JSON-LD、
     #      Open Graph、Atom、RSS
 
     # 站点的创建时间
-    siteCreatedTime = "1969-07-20T20:17:43+00:00"
+    siteCreatedTime = "2023-10-13T11:00:00+00:00"
     # 注意：请保持此格式，更改数字
 
     # 站点的推特帐号
-    siteTwitter = "reuixiy"
+    siteTwitter = ""
     # 说明：用于 Twitter Cards
 
 
@@ -540,7 +540,7 @@ uglyURLs = false
 
     jsonLD = true
     openGraph = true
-    twitterCards = true
+    twitterCards = false
     # 注意：如果你设置 twitterCards 为 `true`，
     #      请务必开启 openGraph。否则，网页的
     #      Twitter Cards 信息将会不完整。
@@ -1157,7 +1157,7 @@ uglyURLs = false
 
     shareOnTwitter = true
     shareOnFacebook = true
-    shareOnLinkedIn = true
+    shareOnLinkedIn = false
     shareOnTelegram = true
     shareOnWeibo = true
     shareOnDouban = true
@@ -1272,13 +1272,13 @@ uglyURLs = false
     iconAnimation = true
 
     # 是否显示站点的作者名称
-    displaySiteAuthorName = true
+    displaySiteAuthorName = false
 
     # 是否显示 Hugo 和 MemE 的链接
     displayPoweredBy = true
 
     # 是否显示站点的版权信息
-    displaySiteCopyright = true
+    displaySiteCopyright = false
 
     # 自定义页脚（支持 Markdown）
     customFooter = ""
@@ -1410,10 +1410,10 @@ uglyURLs = false
     # 404 页面
 
     # 视频封面
-    fofPoster = ""
+    fofPoster = "/static/11.png"
 
     # 视频地址
-    fofVideoWebm = ""
+    fofVideoWebm = "/static/11.png"
     fofVideoMp4 = ""
     # 说明：视频地址可留空（""）
 

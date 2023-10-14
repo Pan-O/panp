@@ -1,0 +1,27 @@
+.nav {
+    font-size: 1em;
+    margin-top: 0.4em;
+}
+.nav .icon{
+    font-size: 1.25em;
+}
+.menu-item {
+    margin-left: 0.8em;
+}
+.nav-toggle {
+    top: 1.75em;
+}
+@media (max-width: $maxWidth) {
+.menu-item .icon {
+    font-size: 1.6em;
+    margin-bottom: 0.15em;
+}
+}
+@media (max-width: $maxWidth) {
+    .nav {
+        margin: 2em 0;
+    }
+    .menu-item-name {
+        font-size: 80%;
+    }
+}
