@@ -1,7 +1,9 @@
 +++
 title = 'About'
 date = 2023-10-13T12:11:00+08:00
-
+displayCopyright = false
+share = false
+badge = false
 +++
 
 Hello! 欢迎来到我的个人博客 
