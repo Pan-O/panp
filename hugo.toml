@@ -683,6 +683,12 @@ uglyURLs = false
     gitalkEnableHotKey = true
     # 说明：https://github.com/gitalk/gitalk
 
+   ######################################
+    # Microsoft clarity
+
+    # 说明：仅在生产环境（production）下渲染
+
+    enablemsclarity = true
 
     ######################################
     # Google Analytics
