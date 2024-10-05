@@ -11,10 +11,10 @@ tags = ["Linux", "美化", "桌面"]
 注：本文不包括终端 shell的美化，配置。本文内容皆基于本人个人理解，如果有误，欢迎指出。
 
 ## 效果一览
-![style](/post-img/gnome-style/1717161651922.png)
-![style](/post-img/gnome-style/1717161652968.png)
-![style](/post-img/gnome-style/1717161642956.png)
-![style](/post-img/gnome-style/1717161646018.png)
+![style](https://img.panp.cc/2024/10/a713f4c594cc23a437f644dbab91a354.png)
+![style](https://img.panp.cc/2024/10/ddbe8bf9c07a03f0b4261b001afed552.png)
+![style](https://img.panp.cc/2024/10/3cc4d6633fb55cc9244a6feaeb309ee9.png)
+![style](https://img.panp.cc/2024/10/6cb78fc07f09eb3bfb7f7eb27e3cd193.png)
 
 ## 前置要求
 Gnome 46

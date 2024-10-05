@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">Pan - 折腾的乐趣</title>
     <subtitle type="html">一个个人博客，在不断的学习中享受折腾的乐趣！</subtitle>
-    <updated>2024-10-05T13:34:51&#43;08:00</updated>
+    <updated>2024-10-05T16:51:01&#43;08:00</updated>
     <id>http://localhost:1313/</id>
     <link rel="alternate" type="text/html" href="http://localhost:1313/" />
     <link rel="self" type="application/atom&#43;xml" href="http://localhost:1313/atom.xml" />
@@ -20,7 +20,7 @@
             <title type="text">Gnome简单美化指北</title>
             <link rel="alternate" type="text/html" href="http://localhost:1313/posts/gnome-style/" />
             <id>http://localhost:1313/posts/gnome-style/</id>
-            <updated>2024-06-18T00:01:15&#43;08:00</updated>
+            <updated>2024-10-05T16:47:13&#43;08:00</updated>
             <published>2024-05-31T08:00:00&#43;08:00</published>
             <author>
                     <name>PanNNN</name>
@@ -34,10 +34,10 @@
 &lt;p&gt;在前两周装了台ITX后便马上装上了馋了很久的arch linux，在不同的DE中选了GNOME，相比于kde来说，我还是更喜欢gnome的简洁，但是gnome默认也不太好看，也缺少一些功能，这里就记录一下个人配置。&lt;/p&gt;
 &lt;p&gt;注：本文不包括终端 shell的美化，配置。本文内容皆基于本人个人理解，如果有误，欢迎指出。&lt;/p&gt;
 &lt;h2 id=&#34;效果一览&#34;&gt;效果一览&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post-img/gnome-style/1717161651922.png&#34; alt=&#34;style&#34;&gt;
-&lt;img src=&#34;http://localhost:1313/post-img/gnome-style/1717161652968.png&#34; alt=&#34;style&#34;&gt;
-&lt;img src=&#34;http://localhost:1313/post-img/gnome-style/1717161642956.png&#34; alt=&#34;style&#34;&gt;
-&lt;img src=&#34;http://localhost:1313/post-img/gnome-style/1717161646018.png&#34; alt=&#34;style&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://img.panp.cc/2024/10/a713f4c594cc23a437f644dbab91a354.png&#34; alt=&#34;style&#34;&gt;
+&lt;img src=&#34;https://img.panp.cc/2024/10/ddbe8bf9c07a03f0b4261b001afed552.png&#34; alt=&#34;style&#34;&gt;
+&lt;img src=&#34;https://img.panp.cc/2024/10/3cc4d6633fb55cc9244a6feaeb309ee9.png&#34; alt=&#34;style&#34;&gt;
+&lt;img src=&#34;https://img.panp.cc/2024/10/6cb78fc07f09eb3bfb7f7eb27e3cd193.png&#34; alt=&#34;style&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;前置要求&#34;&gt;前置要求&lt;/h2&gt;
 &lt;p&gt;Gnome 46
 已安装aur包管理器，&lt;code&gt;yay&lt;/code&gt; &lt;code&gt;paru&lt;/code&gt;均可，paru会更新一些&lt;/p&gt;
@@ -204,7 +204,7 @@
             <title type="text">为asr 3000刷入openwrt并认证某师大校园网</title>
             <link rel="alternate" type="text/html" href="http://localhost:1313/posts/flash-openwrt-open-mentohust/" />
             <id>http://localhost:1313/posts/flash-openwrt-open-mentohust/</id>
-            <updated>2024-06-11T18:16:21&#43;08:00</updated>
+            <updated>2024-10-05T16:46:04&#43;08:00</updated>
             <published>2023-10-15T12:24:38&#43;08:00</published>
             <author>
                     <name>PanNNN</name>
@@ -273,7 +273,7 @@ mtd verify mt7981_abt-asr3000-fip-fixed-parts.bin FIP
 &lt;h3 id=&#34;安装mentohust&#34;&gt;安装mentohust&lt;/h3&gt;
 &lt;p&gt;因为后续操作仍然需要下载文件，建议先把路由器连接上网络，我用的是桥接的办法，在路由器后台的&lt;/p&gt;
 &lt;p&gt;网络---无线---接口: ..apcli0.. | 类型: ..STA..（有两个任选其一即可）点击配置 开启AP客户端模式连接热点即可&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post-img/flash-openwrt-open-mentohust-1.jpg&#34; alt=&#34;router-setting&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://img.panp.cc/2024/10/6d6e74b99c3f8cd816f931390fa9b40a.jpg&#34; alt=&#34;router-setting&#34;&gt;&lt;/p&gt;
 &lt;p&gt;这里直接使用打包好的ipk包，不需要再去编译，比较&lt;del&gt;偷懒&lt;/del&gt;方便 来自&lt;a href=&#34;https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk&#34;&gt;KyleRicardo/MentoHUST-OpenWrt-ipk&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;在putty输入以下命令（只适用于asr3000 同款aarch64_cortex-a53架构&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cd /tmp
@@ -285,11 +285,11 @@ opkg install mentohust_0.3.1-1_aarch64_cortex-a53.ipk
 &lt;p&gt;安装完成后，应该对mentohust的配置文件进行修改。
 这里强烈建议直接使用输入命令行的方式进行配置，而不是使用修改文件的方式！！！我一开始直接使用修改文件的方式，折腾了一下午都失败，各种方式都尝试过，甚至想要把路由器砸了🙃 最终随手试了命令行，结果一遍成功......&lt;/p&gt;
 &lt;p&gt;如果用修改文件的方法去配置参数，在启动服务后会一直认证失败，而在putty中，失败的原因提示是乱码的。原因是因为putty默认的编码是utf-8，而错误原因的编码却是gb2312&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post-img/flash-openwrt-open-mentohust-3.jpg&#34; alt=&#34;utf8&#34;&gt;
-&lt;img src=&#34;http://localhost:1313/post-img/flash-openwrt-open-mentohust-4.jpg&#34; alt=&#34;gb2312&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://img.panp.cc/2024/10/73e5233f5eabecf864b107723fdbd39a.jpg&#34; alt=&#34;utf8&#34;&gt;
+&lt;img src=&#34;https://img.panp.cc/2024/10/a354020072a438c81719a548c87c33e2.jpg&#34; alt=&#34;gb2312&#34;&gt;&lt;/p&gt;
 &lt;p&gt;在修改编码后可以看到错误原因是因为密码错误，但是其实密码是对的，这里不清楚如何解决。所以建议使用命令行设置参数，直接用命令行设置参数并保存到配置文件是完全可行的&lt;/p&gt;
 &lt;p&gt;在此配置参数之前建议安装mentohust的windows版，可以快速调整需要的参数，不用频繁修改文件 重启服务，一次性获得参数数据。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post-img/flash-openwrt-open-mentohust-2.jpg&#34; alt=&#34;tool&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://img.panp.cc/2024/10/9577a175b3d73dd97cf06fcff4e67c6b.jpg&#34; alt=&#34;tool&#34;&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;用法:   ./mentohust [-选项][参数]&lt;/p&gt;
 &lt;p&gt;选项：&lt;/p&gt;
