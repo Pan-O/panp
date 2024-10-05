@@ -8,9 +8,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Pan - 折腾的乐趣</title>
-        <link>https://panp.cc/</link>
+        <link>http://localhost:1313/</link>
         <description>一个个人博客，在不断的学习中享受折腾的乐趣！</description>
-        <generator>Hugo 0.119.0 https://gohugo.io/</generator>
+        <generator>Hugo 0.135.0 https://gohugo.io/</generator>
         
             <language>zh-CN</language>
         
@@ -23,68 +23,157 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Thu, 02 May 2024 19:36:12 &#43;0800</lastBuildDate>
+        <lastBuildDate>Sat, 05 Oct 2024 13:34:51 &#43;0800</lastBuildDate>
         
-            <atom:link rel="self" type="application/rss&#43;xml" href="https://panp.cc/rss.xml" />
+            <atom:link rel="self" type="application/rss&#43;xml" href="http://localhost:1313/rss.xml" />
         
         
             <item>
+                <title>Gnome简单美化指北</title>
+                <link>http://localhost:1313/posts/gnome-style/</link>
+                <guid isPermaLink="true">http://localhost:1313/posts/gnome-style/</guid>
+                <pubDate>Fri, 31 May 2024 08:00:00 &#43;0800</pubDate>
+                
+                    <author>cool.panjianhao@gmail.com (PanNNN)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;h2 id=&#34;起始&#34;&gt;起始&lt;/h2&gt;
+&lt;p&gt;在前两周装了台ITX后便马上装上了馋了很久的arch linux，在不同的DE中选了GNOME，相比于kde来说，我还是更喜欢gnome的简洁，但是gnome默认也不太好看，也缺少一些功能，这里就记录一下个人配置。&lt;/p&gt;
+&lt;p&gt;注：本文不包括终端 shell的美化，配置。本文内容皆基于本人个人理解，如果有误，欢迎指出。&lt;/p&gt;
+&lt;h2 id=&#34;效果一览&#34;&gt;效果一览&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post-img/gnome-style/1717161651922.png&#34; alt=&#34;style&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post-img/gnome-style/1717161652968.png&#34; alt=&#34;style&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post-img/gnome-style/1717161642956.png&#34; alt=&#34;style&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post-img/gnome-style/1717161646018.png&#34; alt=&#34;style&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;前置要求&#34;&gt;前置要求&lt;/h2&gt;
+&lt;p&gt;Gnome 46
+已安装aur包管理器，&lt;code&gt;yay&lt;/code&gt; &lt;code&gt;paru&lt;/code&gt;均可，paru会更新一些&lt;/p&gt;
+&lt;p&gt;安装拓展可以使用浏览器拓展或者命令行安装，浏览器安装需要提前安装&lt;a href=&#34;https://chromewebstore.google.com/detail/gnome-shell-%E9%9B%86%E6%88%90/gphhapmejobijbbhgpjhcjognlahblep&#34;&gt;Gnome Shell 集成&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;theme&#34;&gt;Theme&lt;/h2&gt;
+&lt;p&gt;目前只用了shell主题和gtk主题，至于qt主题因为还没找到喜欢的，也没有特别影响整体效果就没有配置。&lt;/p&gt;
+&lt;h3 id=&#34;shell主题&#34;&gt;Shell主题&lt;/h3&gt;
+&lt;p&gt;Shell主题主要使用的是&lt;a href=&#34;https://github.com/imarkoff/Marble-shell-theme&#34;&gt;Marble Shell Theme&lt;/a&gt;
+基本的安装方法在README.md里已经相当详细了&lt;/p&gt;
+&lt;p&gt;同时Marble还有一个GDM theme，有简单的美化，也可以一起安装了&lt;/p&gt;
+&lt;h3 id=&#34;gtk主题&#34;&gt;GTK主题&lt;/h3&gt;
+&lt;p&gt;gtk主题用的是&lt;a href=&#34;https://github.com/catppuccin/gtk&#34;&gt;Catppuccin&lt;/a&gt;的Macchiato版（强推Catppuccin，对于很多应用或者网页都要相应的配色方案，可以做到色彩统一&lt;/p&gt;
+&lt;h2 id=&#34;extension&#34;&gt;Extension&lt;/h2&gt;
+&lt;h3 id=&#34;系统拓展&#34;&gt;系统拓展&lt;/h3&gt;
+&lt;p&gt;Removable Drive Menu 在顶部bar添加移动设备的管理&lt;/p&gt;
+&lt;p&gt;User Themes 支持用户使用指定的Shell主题&lt;/p&gt;
+&lt;h3 id=&#34;用户拓展&#34;&gt;用户拓展&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://extensions.gnome.org/extension/615/appindicator-support/&#34;&gt;AppIndicator and KStatusNotifierItem Support &lt;/a&gt; 在顶栏中显示程序的托盘图标&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://extensions.gnome.org/extension/6433/app-menu-is-back/&#34;&gt;App menu is back&lt;/a&gt; 在顶栏中显示当前使用的应用（好像是前几个版本被删掉的特性，个人感觉还算蛮有必要的，用这个可以加回来&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://extensions.gnome.org/extension/3193/blur-my-shell/&#34;&gt;Blur my Shell&lt;/a&gt; 强推，能够模糊各个部位的shell样式，对于顶栏我配置了全屏时不模糊（启用Disable in overview），非全屏时直接Sigma和Brightness为0，这样可以做到非全状态下顶栏透明，全屏下有背景色，有效避免全屏后顶栏样式的突兀&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://extensions.gnome.org/extension/779/clipboard-indicator/&#34;&gt;Clipboard Indicator&lt;/a&gt; 在顶栏中添加一个剪贴板按钮，不算特别好用，不过算一个比较简单的剪贴板解决方案，支持文本和图片&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://extensions.gnome.org/extension/307/dash-to-dock/&#34;&gt;Dash to Dock&lt;/a&gt; 将概览时的dash栏变为dock栏，配置里我只修改了&lt;code&gt;点击动作&lt;/code&gt;为&lt;code&gt;最小化或显示预览&lt;/code&gt; &lt;del&gt;让体验更像windows了&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://extensions.gnome.org/extension/2932/executor/&#34;&gt;Executor&lt;/a&gt; 在shell里添加shell脚本，我这里主要用来显示歌词，使用了&lt;a href=&#34;https://github.com/MarsSwimmer/get_lrc&#34;&gt;Get_Lrc&lt;/a&gt;这个项目，不过如果不播放歌的话，这个脚本是不能获得到歌词的，但是还是会在顶栏占用空间，解决办法估计只能专门写个单独的拓展才行了&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://extensions.gnome.org/extension/4627/focus-changer/&#34;&gt;Focus changer&lt;/a&gt; 通过快捷键切换焦点到其他应用，感觉效果还行&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://extensions.gnome.org/extension/3956/gnome-fuzzy-app-search/&#34;&gt;GNOME Fuzzy App Search&lt;/a&gt; 让gnome的搜索应用方面更加“智能”，便于快速检索应用&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://extensions.gnome.org/extension/261/kimpanel/&#34;&gt;Input Method Panel&lt;/a&gt; 修改Fcitx5的样式，这样Fcitx5不用配置什么皮肤也挺好看了&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://extensions.gnome.org/extension/3843/just-perfection/&#34;&gt;Just Perfection&lt;/a&gt; 对一些Shell组件修改，例如隐藏一些不需要的部件。我只用到了隐藏&lt;code&gt;辅助功能菜单&lt;/code&gt;，之所以有这个是因为设置里我的字体dpi调到了1.1（由于启用分数缩放导致不少应用有模糊的问题，只能这样曲线救国了&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://extensions.gnome.org/extension/5506/user-avatar-in-quick-settings/&#34;&gt;User Avatar In quick Settings&lt;/a&gt; 在快速设置菜单添加你的头像和名称等信息（感觉加了似乎好看点？？&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://extensions.gnome.org/extension/1460/vitals/&#34;&gt;Vitals&lt;/a&gt; 在顶栏添加对一些系统信息的展示，例如内存使用占比，网速等。比自带的System Monitor好用&lt;/p&gt;
+&lt;h2 id=&#34;结语&#34;&gt;结语&lt;/h2&gt;
+&lt;p&gt;初步配置完仍然有些不太满意，例如gtk主题应用并不完全，圆角，模糊等插件的失效，以及传言中gnome大更新时插件会大量失效都让人有点不安（之所以传言是因为我还没体验过），最后最主要是gnome是堆叠式的，这点与Windows和Mac并没有太大区别。
+因此在初步配置好后其实与Windows和Mac在基础操作上基本大差不差。&lt;/p&gt;
+&lt;p&gt;本着折腾和“个性化”的想法，接下来估计会开始折腾hyprland了，体验一下平铺式桌面管理的快乐。至于Wayland的兼容性方面...等用上了再说🤣，相信一定能解决的办法。
+在GNOME下默认也是使用Wayland，基本没感觉有什么问题，分数缩放方面确实不好处理，据说kde有比较好的解决方案，不过还没用过kde🥲&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="http://localhost:1313/tags/linux/">Linux</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="http://localhost:1313/tags/%E7%BE%8E%E5%8C%96/">美化</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="http://localhost:1313/tags/%E6%A1%8C%E9%9D%A2/">桌面</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
                 <title>Bubble起始页拓展</title>
-                <link>https://panp.cc/posts/bubble-new-tab-help/</link>
-                <guid isPermaLink="true">https://panp.cc/posts/bubble-new-tab-help/</guid>
-                <pubDate>Thu, 02 May 2024 19:13:36 &#43;0800</pubDate>
+                <link>http://localhost:1313/posts/bubble-new-tab/</link>
+                <guid isPermaLink="true">http://localhost:1313/posts/bubble-new-tab/</guid>
+                <pubDate>Thu, 02 May 2024 10:00:00 &#43;0800</pubDate>
                 
                     <author>cool.panjianhao@gmail.com (PanNNN)</author>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
                     <description>&lt;h2 id=&#34;bubble-起始页&#34;&gt;Bubble 起始页&lt;/h2&gt;
-&lt;p&gt;⭐ Bubble起始页是一个简约且美观的新选项卡扩展，可与多功能框无缝交互
-🔑支持自定义多个搜索引擎，并通过key快捷搜索
-📌添加omnibox关键词，可以实现与起始页相同的搜索体验
-🎈优雅的深色模式，以及页面动画
-🧩可选的天气卡片，一言卡片&lt;/p&gt;
+&lt;p&gt;⭐ Bubble起始页是一个简约且美观的新选项卡扩展，可与多功能框无缝交互&lt;/p&gt;
+&lt;p&gt;🔑支持自定义多个搜索引擎，并通过key快捷搜索&lt;/p&gt;
+&lt;p&gt;📌添加omnibox关键词，可以实现与起始页相同的搜索体验&lt;/p&gt;
+&lt;p&gt;🎈优雅的深色模式，以及页面动画&lt;/p&gt;
+&lt;p&gt;🧩可选的天气卡片，一言卡片&lt;/p&gt;
 &lt;h2 id=&#34;如何使用&#34;&gt;如何使用&lt;/h2&gt;
 &lt;p&gt;在omnibox和主页的搜索框里，可以进行搜索。&lt;/p&gt;
 &lt;h3 id=&#34;使用主页搜索框&#34;&gt;使用主页搜索框&lt;/h3&gt;
-&lt;p&gt;默认情况下直接输入内容即可进行搜索
-如果要切换搜索引擎，需要先输入&lt;code&gt;:key&lt;/code&gt;进行切换，这里的key是设置里每个搜索引擎自定义的值，例如使用google搜索则输入&lt;code&gt;:gg&lt;/code&gt;然后空格，系统将自动识别并切换到google搜索
-若输入的key有误或不存在，搜索引擎将不会发生改变，仍使用默认的搜索引擎&lt;/p&gt;
+&lt;p&gt;默认情况下直接输入内容即可进行搜索&lt;/p&gt;
+&lt;p&gt;如果要切换搜索引擎，需要先输入&lt;code&gt;:key&lt;/code&gt;进行切换，这里的key是设置里每个搜索引擎自定义的值，例如使用google搜索则输入&lt;code&gt;:gg&lt;/code&gt;然后空格，系统将自动识别并切换到google搜索&lt;/p&gt;
+&lt;p&gt;若输入的key有误或不存在，搜索引擎将不会发生改变，仍使用默认的搜索引擎&lt;/p&gt;
 &lt;h3 id=&#34;使用omnibox&#34;&gt;使用omnibox&lt;/h3&gt;
 &lt;p&gt;和主页搜索框的使用基本相同，但需要提前输入一个&lt;code&gt;:&lt;/code&gt;，再按&lt;code&gt;Tab&lt;/code&gt;键让拓展接管omnibox，然后即可进行搜索&lt;/p&gt;
 &lt;h2 id=&#34;天气卡片&#34;&gt;天气卡片&lt;/h2&gt;
-&lt;p&gt;使用天气卡片需要用户填写自己的API，天气服务使用和风天气，因此用户需要自己注册账号，申请API
-具体流程如下：&lt;/p&gt;
+&lt;p&gt;使用天气卡片需要用户填写自己的API，天气服务使用和风天气，因此用户需要自己注册账号，申请API&lt;/p&gt;
+&lt;p&gt;具体流程如下：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;进入&lt;a href=&#34;https://console.qweather.com/&#34;&gt;控制台 | 和风天气 (qweather.com)&lt;/a&gt;，登录账号（若没有账号需注册）&lt;/li&gt;
-&lt;li&gt;进入控制台后，进入项目管理页面，点击创建项目![[20240502185805355.png]]&lt;/li&gt;
-&lt;li&gt;填写表单，项目名称随意填写，订阅选择&lt;em&gt;免费订阅&lt;/em&gt; ，Key选择Web API，这里Key的名称也随意填写&lt;/li&gt;
-&lt;li&gt;项目创建完成后回到项目管理页面，查看key并填写到设置里即可![[20240502190049413.png]]&lt;/li&gt;
+&lt;li&gt;进入控制台后，进入项目管理页面，点击创建项目3. 填写表单，项目名称随意填写，订阅选择&lt;em&gt;免费订阅&lt;/em&gt; ，Key选择Web API，这里Key的名称也随意填写&lt;/li&gt;
+&lt;li&gt;项目创建完成后回到项目管理页面，查看key并填写到设置里即可&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;自定义搜索引擎&#34;&gt;自定义搜索引擎&lt;/h2&gt;
-&lt;p&gt;在设置里可以添加自己定义的搜索引擎
-添加搜索引擎需要4个值&lt;/p&gt;
+&lt;p&gt;在设置里可以添加自己定义的搜索引擎&lt;/p&gt;
+&lt;p&gt;添加搜索引擎需要4个值&lt;/p&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Name&lt;/th&gt;
-&lt;th&gt;搜索引擎的名称，将显示在页面里&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Icon（可选）&lt;/td&gt;
-&lt;td&gt;搜索引擎的图标，将显示在页面里（若没有填写则会自动获取）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Url&lt;/td&gt;
-&lt;td&gt;自定义搜索引擎的Url，以&lt;code&gt;https://&lt;/code&gt;开头，关键词参数名及其连接符结尾&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Key&lt;/td&gt;
-&lt;td&gt;设置该搜索引擎的key，用于切换搜索引擎&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;选项&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;备注&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Name&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;搜索引擎的名称，将显示在页面里&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Icon（可选）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;搜索引擎的图标，将显示在页面里（若没有填写则会自动获取）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Url&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;自定义搜索引擎的Url，以&lt;code&gt;https://&lt;/code&gt;开头，关键词参数名及其连接符结尾&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Key&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;设置该搜索引擎的key，用于切换搜索引擎&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 </description>
                 
@@ -96,14 +185,28 @@
                         
                     
                         
+                            
+                                
+                                
+                                
+                                    <category domain="http://localhost:1313/tags/%E6%8B%93%E5%B1%95/">拓展</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="http://localhost:1313/tags/%E9%A1%B9%E7%9B%AE/">项目</category>
+                                
+                            
+                        
                     
                 
             </item>
         
             <item>
                 <title>为asr 3000刷入openwrt并认证某师大校园网</title>
-                <link>https://panp.cc/posts/flash-openwrt-open-mentohust/</link>
-                <guid isPermaLink="true">https://panp.cc/posts/flash-openwrt-open-mentohust/</guid>
+                <link>http://localhost:1313/posts/flash-openwrt-open-mentohust/</link>
+                <guid isPermaLink="true">http://localhost:1313/posts/flash-openwrt-open-mentohust/</guid>
                 <pubDate>Sun, 15 Oct 2023 12:24:38 &#43;0800</pubDate>
                 
                     <author>cool.panjianhao@gmail.com (PanNNN)</author>
@@ -168,7 +271,7 @@ mtd verify mt7981_abt-asr3000-fip-fixed-parts.bin FIP
 &lt;h3 id=&#34;安装mentohust&#34;&gt;安装mentohust&lt;/h3&gt;
 &lt;p&gt;因为后续操作仍然需要下载文件，建议先把路由器连接上网络，我用的是桥接的办法，在路由器后台的&lt;/p&gt;
 &lt;p&gt;网络---无线---接口: ..apcli0.. | 类型: ..STA..（有两个任选其一即可）点击配置 开启AP客户端模式连接热点即可&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://panp.cc/post-img/flash-openwrt-open-mentohust-1.jpg&#34; alt=&#34;router-setting&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post-img/flash-openwrt-open-mentohust-1.jpg&#34; alt=&#34;router-setting&#34;&gt;&lt;/p&gt;
 &lt;p&gt;这里直接使用打包好的ipk包，不需要再去编译，比较&lt;del&gt;偷懒&lt;/del&gt;方便 来自&lt;a href=&#34;https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk&#34;&gt;KyleRicardo/MentoHUST-OpenWrt-ipk&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;在putty输入以下命令（只适用于asr3000 同款aarch64_cortex-a53架构&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cd /tmp
@@ -180,11 +283,11 @@ opkg install mentohust_0.3.1-1_aarch64_cortex-a53.ipk
 &lt;p&gt;安装完成后，应该对mentohust的配置文件进行修改。
 这里强烈建议直接使用输入命令行的方式进行配置，而不是使用修改文件的方式！！！我一开始直接使用修改文件的方式，折腾了一下午都失败，各种方式都尝试过，甚至想要把路由器砸了🙃 最终随手试了命令行，结果一遍成功......&lt;/p&gt;
 &lt;p&gt;如果用修改文件的方法去配置参数，在启动服务后会一直认证失败，而在putty中，失败的原因提示是乱码的。原因是因为putty默认的编码是utf-8，而错误原因的编码却是gb2312&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://panp.cc/post-img/flash-openwrt-open-mentohust-3.jpg&#34; alt=&#34;utf8&#34;&gt;
-&lt;img src=&#34;https://panp.cc/post-img/flash-openwrt-open-mentohust-4.jpg&#34; alt=&#34;gb2312&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post-img/flash-openwrt-open-mentohust-3.jpg&#34; alt=&#34;utf8&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/post-img/flash-openwrt-open-mentohust-4.jpg&#34; alt=&#34;gb2312&#34;&gt;&lt;/p&gt;
 &lt;p&gt;在修改编码后可以看到错误原因是因为密码错误，但是其实密码是对的，这里不清楚如何解决。所以建议使用命令行设置参数，直接用命令行设置参数并保存到配置文件是完全可行的&lt;/p&gt;
 &lt;p&gt;在此配置参数之前建议安装mentohust的windows版，可以快速调整需要的参数，不用频繁修改文件 重启服务，一次性获得参数数据。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://panp.cc/post-img/flash-openwrt-open-mentohust-2.jpg&#34; alt=&#34;tool&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post-img/flash-openwrt-open-mentohust-2.jpg&#34; alt=&#34;tool&#34;&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;用法:   ./mentohust [-选项][参数]&lt;/p&gt;
 &lt;p&gt;选项：&lt;/p&gt;
@@ -213,7 +316,7 @@ opkg install mentohust_0.3.1-1_aarch64_cortex-a53.ipk
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;例如:   ./mentohust -uusername -ppassword -neth0 -i192.168.0.1 -m255.255.255.0 -g0.0.0.0 -s0.0.0.0 -o0.0.0.0 -t8 -e30 -r15 -a0 -d1 -b0 -v4.10 -fdefault.mpf -cudhcpc -i&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;具体参数根据每个学校都是不同的，具体要靠自己调出来，建议把网卡的mac改成电脑的伪装下，否则可能用不了&lt;/p&gt;
+&lt;p&gt;具体参数根据每个学校都是不同的，具体要靠自己调出来&lt;/p&gt;
 &lt;p&gt;这里直接贴我们学校的参数，比较简单，没有什么限制&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;./mentohust -u账号 -p密码 -neth1 -a1 -y0 -b1 -w
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;参数-u和-p没啥好说的，就是账号和密码&lt;/p&gt;
@@ -275,19 +378,19 @@ W32N55.dll复制到数据文件所在目录，接下来就可以开始认证了�
                                 
                                 
                                 
-                                    <category domain="https://panp.cc/tags/openwrt/">OpenWrt</category>
+                                    <category domain="http://localhost:1313/tags/openwrt/">OpenWrt</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://panp.cc/tags/%E7%BD%91%E7%BB%9C/">网络</category>
+                                    <category domain="http://localhost:1313/tags/%E7%BD%91%E7%BB%9C/">网络</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://panp.cc/tags/%E6%8A%98%E8%85%BE/">折腾</category>
+                                    <category domain="http://localhost:1313/tags/%E6%8A%98%E8%85%BE/">折腾</category>
                                 
                             
                         
@@ -297,8 +400,8 @@ W32N55.dll复制到数据文件所在目录，接下来就可以开始认证了�
         
             <item>
                 <title>Hello New Blog</title>
-                <link>https://panp.cc/posts/hello-new-blog/</link>
-                <guid isPermaLink="true">https://panp.cc/posts/hello-new-blog/</guid>
+                <link>http://localhost:1313/posts/hello-new-blog/</link>
+                <guid isPermaLink="true">http://localhost:1313/posts/hello-new-blog/</guid>
                 <pubDate>Fri, 13 Oct 2023 17:00:36 &#43;0800</pubDate>
                 
                     <author>cool.panjianhao@gmail.com (PanNNN)</author>
