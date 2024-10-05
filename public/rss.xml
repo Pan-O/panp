@@ -8,7 +8,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Pan - 折腾的乐趣</title>
-        <link>http://localhost:1313/</link>
+        <link>https://panp.cc/</link>
         <description>一个个人博客，在不断的学习中享受折腾的乐趣！</description>
         <generator>Hugo 0.135.0 https://gohugo.io/</generator>
         
@@ -23,15 +23,15 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Sat, 05 Oct 2024 16:51:01 &#43;0800</lastBuildDate>
+        <lastBuildDate>Sat, 05 Oct 2024 17:12:26 &#43;0800</lastBuildDate>
         
-            <atom:link rel="self" type="application/rss&#43;xml" href="http://localhost:1313/rss.xml" />
+            <atom:link rel="self" type="application/rss&#43;xml" href="https://panp.cc/rss.xml" />
         
         
             <item>
                 <title>Gnome简单美化指北</title>
-                <link>http://localhost:1313/posts/gnome-style/</link>
-                <guid isPermaLink="true">http://localhost:1313/posts/gnome-style/</guid>
+                <link>https://panp.cc/posts/gnome-style/</link>
+                <guid isPermaLink="true">https://panp.cc/posts/gnome-style/</guid>
                 <pubDate>Fri, 31 May 2024 08:00:00 &#43;0800</pubDate>
                 
                     <author>cool.panjianhao@gmail.com (PanNNN)</author>
@@ -94,19 +94,19 @@
                                 
                                 
                                 
-                                    <category domain="http://localhost:1313/tags/linux/">Linux</category>
+                                    <category domain="https://panp.cc/tags/linux/">Linux</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="http://localhost:1313/tags/%E7%BE%8E%E5%8C%96/">美化</category>
+                                    <category domain="https://panp.cc/tags/%E7%BE%8E%E5%8C%96/">美化</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="http://localhost:1313/tags/%E6%A1%8C%E9%9D%A2/">桌面</category>
+                                    <category domain="https://panp.cc/tags/%E6%A1%8C%E9%9D%A2/">桌面</category>
                                 
                             
                         
@@ -116,8 +116,8 @@
         
             <item>
                 <title>Bubble起始页拓展</title>
-                <link>http://localhost:1313/posts/bubble-new-tab/</link>
-                <guid isPermaLink="true">http://localhost:1313/posts/bubble-new-tab/</guid>
+                <link>https://panp.cc/posts/bubble-new-tab/</link>
+                <guid isPermaLink="true">https://panp.cc/posts/bubble-new-tab/</guid>
                 <pubDate>Thu, 02 May 2024 10:00:00 &#43;0800</pubDate>
                 
                     <author>cool.panjianhao@gmail.com (PanNNN)</author>
@@ -189,13 +189,13 @@
                                 
                                 
                                 
-                                    <category domain="http://localhost:1313/tags/%E6%8B%93%E5%B1%95/">拓展</category>
+                                    <category domain="https://panp.cc/tags/%E6%8B%93%E5%B1%95/">拓展</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="http://localhost:1313/tags/%E9%A1%B9%E7%9B%AE/">项目</category>
+                                    <category domain="https://panp.cc/tags/%E9%A1%B9%E7%9B%AE/">项目</category>
                                 
                             
                         
@@ -205,8 +205,8 @@
         
             <item>
                 <title>为asr 3000刷入openwrt并认证某师大校园网</title>
-                <link>http://localhost:1313/posts/flash-openwrt-open-mentohust/</link>
-                <guid isPermaLink="true">http://localhost:1313/posts/flash-openwrt-open-mentohust/</guid>
+                <link>https://panp.cc/posts/flash-openwrt-open-mentohust/</link>
+                <guid isPermaLink="true">https://panp.cc/posts/flash-openwrt-open-mentohust/</guid>
                 <pubDate>Sun, 15 Oct 2023 12:24:38 &#43;0800</pubDate>
                 
                     <author>cool.panjianhao@gmail.com (PanNNN)</author>
@@ -378,19 +378,19 @@ W32N55.dll复制到数据文件所在目录，接下来就可以开始认证了�
                                 
                                 
                                 
-                                    <category domain="http://localhost:1313/tags/openwrt/">OpenWrt</category>
+                                    <category domain="https://panp.cc/tags/openwrt/">OpenWrt</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="http://localhost:1313/tags/%E7%BD%91%E7%BB%9C/">网络</category>
+                                    <category domain="https://panp.cc/tags/%E7%BD%91%E7%BB%9C/">网络</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="http://localhost:1313/tags/%E6%8A%98%E8%85%BE/">折腾</category>
+                                    <category domain="https://panp.cc/tags/%E6%8A%98%E8%85%BE/">折腾</category>
                                 
                             
                         
@@ -400,8 +400,8 @@ W32N55.dll复制到数据文件所在目录，接下来就可以开始认证了�
         
             <item>
                 <title>Hello New Blog</title>
-                <link>http://localhost:1313/posts/hello-new-blog/</link>
-                <guid isPermaLink="true">http://localhost:1313/posts/hello-new-blog/</guid>
+                <link>https://panp.cc/posts/hello-new-blog/</link>
+                <guid isPermaLink="true">https://panp.cc/posts/hello-new-blog/</guid>
                 <pubDate>Fri, 13 Oct 2023 17:00:36 &#43;0800</pubDate>
                 
                     <author>cool.panjianhao@gmail.com (PanNNN)</author>

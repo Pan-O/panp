@@ -4,13 +4,13 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">Pan - 折腾的乐趣</title>
     <subtitle type="html">一个个人博客，在不断的学习中享受折腾的乐趣！</subtitle>
-    <updated>2024-10-05T16:51:01&#43;08:00</updated>
-    <id>http://localhost:1313/</id>
-    <link rel="alternate" type="text/html" href="http://localhost:1313/" />
-    <link rel="self" type="application/atom&#43;xml" href="http://localhost:1313/atom.xml" />
+    <updated>2024-10-05T17:12:26&#43;08:00</updated>
+    <id>https://panp.cc/</id>
+    <link rel="alternate" type="text/html" href="https://panp.cc/" />
+    <link rel="self" type="application/atom&#43;xml" href="https://panp.cc/atom.xml" />
     <author>
             <name>PanNNN</name>
-            <uri>http://localhost:1313/</uri>
+            <uri>https://panp.cc/</uri>
             
                 <email>cool.panjianhao@gmail.com</email>
             </author>
@@ -18,8 +18,8 @@
     <generator uri="https://gohugo.io/" version="0.135.0">Hugo</generator>
         <entry>
             <title type="text">Gnome简单美化指北</title>
-            <link rel="alternate" type="text/html" href="http://localhost:1313/posts/gnome-style/" />
-            <id>http://localhost:1313/posts/gnome-style/</id>
+            <link rel="alternate" type="text/html" href="https://panp.cc/posts/gnome-style/" />
+            <id>https://panp.cc/posts/gnome-style/</id>
             <updated>2024-10-05T16:47:13&#43;08:00</updated>
             <published>2024-05-31T08:00:00&#43;08:00</published>
             <author>
@@ -86,19 +86,19 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/linux/" term="Linux" label="Linux" />
+                                <category scheme="https://panp.cc/tags/linux/" term="Linux" label="Linux" />
                             
                         
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E7%BE%8E%E5%8C%96/" term="美化" label="美化" />
+                                <category scheme="https://panp.cc/tags/%E7%BE%8E%E5%8C%96/" term="美化" label="美化" />
                             
                         
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E6%A1%8C%E9%9D%A2/" term="桌面" label="桌面" />
+                                <category scheme="https://panp.cc/tags/%E6%A1%8C%E9%9D%A2/" term="桌面" label="桌面" />
                             
                         
                     
@@ -108,8 +108,8 @@
     
         <entry>
             <title type="text">Bubble起始页拓展</title>
-            <link rel="alternate" type="text/html" href="http://localhost:1313/posts/bubble-new-tab/" />
-            <id>http://localhost:1313/posts/bubble-new-tab/</id>
+            <link rel="alternate" type="text/html" href="https://panp.cc/posts/bubble-new-tab/" />
+            <id>https://panp.cc/posts/bubble-new-tab/</id>
             <updated>2024-06-18T00:01:00&#43;08:00</updated>
             <published>2024-05-02T10:00:00&#43;08:00</published>
             <author>
@@ -186,13 +186,13 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E6%8B%93%E5%B1%95/" term="拓展" label="拓展" />
+                                <category scheme="https://panp.cc/tags/%E6%8B%93%E5%B1%95/" term="拓展" label="拓展" />
                             
                         
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E9%A1%B9%E7%9B%AE/" term="项目" label="项目" />
+                                <category scheme="https://panp.cc/tags/%E9%A1%B9%E7%9B%AE/" term="项目" label="项目" />
                             
                         
                     
@@ -202,8 +202,8 @@
     
         <entry>
             <title type="text">为asr 3000刷入openwrt并认证某师大校园网</title>
-            <link rel="alternate" type="text/html" href="http://localhost:1313/posts/flash-openwrt-open-mentohust/" />
-            <id>http://localhost:1313/posts/flash-openwrt-open-mentohust/</id>
+            <link rel="alternate" type="text/html" href="https://panp.cc/posts/flash-openwrt-open-mentohust/" />
+            <id>https://panp.cc/posts/flash-openwrt-open-mentohust/</id>
             <updated>2024-10-05T16:46:04&#43;08:00</updated>
             <published>2023-10-15T12:24:38&#43;08:00</published>
             <author>
@@ -380,19 +380,19 @@ W32N55.dll复制到数据文件所在目录，接下来就可以开始认证了�
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/openwrt/" term="OpenWrt" label="OpenWrt" />
+                                <category scheme="https://panp.cc/tags/openwrt/" term="OpenWrt" label="OpenWrt" />
                             
                         
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E7%BD%91%E7%BB%9C/" term="网络" label="网络" />
+                                <category scheme="https://panp.cc/tags/%E7%BD%91%E7%BB%9C/" term="网络" label="网络" />
                             
                         
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E6%8A%98%E8%85%BE/" term="折腾" label="折腾" />
+                                <category scheme="https://panp.cc/tags/%E6%8A%98%E8%85%BE/" term="折腾" label="折腾" />
                             
                         
                     
@@ -402,8 +402,8 @@ W32N55.dll复制到数据文件所在目录，接下来就可以开始认证了�
     
         <entry>
             <title type="text">Hello New Blog</title>
-            <link rel="alternate" type="text/html" href="http://localhost:1313/posts/hello-new-blog/" />
-            <id>http://localhost:1313/posts/hello-new-blog/</id>
+            <link rel="alternate" type="text/html" href="https://panp.cc/posts/hello-new-blog/" />
+            <id>https://panp.cc/posts/hello-new-blog/</id>
             <updated>2024-06-11T18:16:21&#43;08:00</updated>
             <published>2023-10-13T17:00:36&#43;08:00</published>
             <author>

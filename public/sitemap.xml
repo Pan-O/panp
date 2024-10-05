@@ -2,57 +2,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/gnome-style/</loc>
+    <loc>https://panp.cc/posts/gnome-style/</loc>
     <lastmod>2024-10-05T16:47:13+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/linux/</loc>
+    <loc>https://panp.cc/tags/linux/</loc>
     <lastmod>2024-10-05T16:47:13+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://panp.cc/</loc>
     <lastmod>2024-10-05T16:47:13+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://panp.cc/posts/</loc>
     <lastmod>2024-10-05T16:47:13+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://panp.cc/tags/</loc>
     <lastmod>2024-10-05T16:47:13+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E7%BE%8E%E5%8C%96/</loc>
+    <loc>https://panp.cc/tags/%E7%BE%8E%E5%8C%96/</loc>
     <lastmod>2024-10-05T16:47:13+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E6%A1%8C%E9%9D%A2/</loc>
+    <loc>https://panp.cc/tags/%E6%A1%8C%E9%9D%A2/</loc>
     <lastmod>2024-10-05T16:47:13+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/bubble-new-tab/</loc>
+    <loc>https://panp.cc/posts/bubble-new-tab/</loc>
     <lastmod>2024-06-18T00:01:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E6%8B%93%E5%B1%95/</loc>
+    <loc>https://panp.cc/tags/%E6%8B%93%E5%B1%95/</loc>
     <lastmod>2024-06-18T00:01:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E9%A1%B9%E7%9B%AE/</loc>
+    <loc>https://panp.cc/tags/%E9%A1%B9%E7%9B%AE/</loc>
     <lastmod>2024-06-18T00:01:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/openwrt/</loc>
+    <loc>https://panp.cc/tags/openwrt/</loc>
     <lastmod>2024-10-05T16:46:04+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E7%BD%91%E7%BB%9C/</loc>
+    <loc>https://panp.cc/tags/%E7%BD%91%E7%BB%9C/</loc>
     <lastmod>2024-10-05T16:46:04+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/flash-openwrt-open-mentohust/</loc>
+    <loc>https://panp.cc/posts/flash-openwrt-open-mentohust/</loc>
     <lastmod>2024-10-05T16:46:04+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E6%8A%98%E8%85%BE/</loc>
+    <loc>https://panp.cc/tags/%E6%8A%98%E8%85%BE/</loc>
     <lastmod>2024-10-05T16:46:04+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/hello-new-blog/</loc>
+    <loc>https://panp.cc/posts/hello-new-blog/</loc>
     <lastmod>2024-06-11T18:16:21+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://panp.cc/about/</loc>
     <lastmod>2024-06-18T00:12:04+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/links/</loc>
+    <loc>https://panp.cc/links/</loc>
     <lastmod>2024-06-18T00:12:04+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://panp.cc/categories/</loc>
   </url>
 </urlset>
