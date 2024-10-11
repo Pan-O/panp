@@ -15,8 +15,12 @@ theme = "meme"
 newContentEditor = ""
 
 # i18n
-defaultContentLanguage = "zh"
+defaultContentLanguage = "zh-cn"
 defaultContentLanguageInSubdir = false
+
+# 标题大小写格式
+# https://gohugo.io/getting-started/configuration/#configure-title-case
+titleCaseStyle = "none"
 
 # 是否复数化列表页面的标题
 pluralizeListTitles = false
@@ -100,7 +104,7 @@ uglyURLs = false
     # 邮箱
     email = "cool.panjianhao@gmail.com"
     # 座右铭或简介
-    motto = "One Two THREE Go!"
+    motto = "Find delight in all things. 🎈"
     # 头像
     avatar = "/icons/apple-touch-icon.png"
     # 网站（默认值：baseURL）
@@ -352,7 +356,7 @@ uglyURLs = false
     # 注意：请保持此格式，更改数字
 
     # 站点的推特帐号
-    siteTwitter = ""
+    siteTwitter = "pfpan0"
     # 说明：用于 Twitter Cards
 
 
@@ -540,7 +544,7 @@ uglyURLs = false
 
     jsonLD = true
     openGraph = true
-    twitterCards = false
+    twitterCards = true
     # 注意：如果你设置 twitterCards 为 `true`，
     #      请务必开启 openGraph。否则，网页的
     #      Twitter Cards 信息将会不完整。
@@ -600,7 +604,7 @@ uglyURLs = false
     # 说明：仅在生产环境（production）下渲染
 
     # 是否开启（全局设置）
-    enableComments = false
+    enableComments = true
     # 说明：文章的 Front Matter 中的 `comments`
     #      的优先级高于此处
 
@@ -683,12 +687,39 @@ uglyURLs = false
     gitalkEnableHotKey = true
     # 说明：https://github.com/gitalk/gitalk
 
-   ######################################
-    # Microsoft clarity
+    ## Giscus
+    enableGiscus = true
+    giscusRepo = "Pan-O/panp"
+    giscusRepoId = "R_kgDOKfedeg"
+    giscusCategory = "Announcements"
+    giscusCategoryId = "DIC_kwDOKfedes4CjREo"
+    giscusMapping = "pathname"
+    giscusStrict = false
+    giscusReactionsEnabled = true
+    giscusEmitMetaData = false
+    giscusInputPosition = "top"
+    giscusTheme = "light"
+    giscusThemeDark = "dark"
+    giscusLang = "zh-CN"
+    # 说明：https://giscus.app/zh-CN
 
-    # 说明：仅在生产环境（production）下渲染
+    # Remark42
+    enableRemark42 = false
+    remark42Host = ""
+    remark42SiteId = "remark"
+    remark42Url = ""
+    remark42Components = ["embed"]
+    remark42MaxShownComments = 15
+    remark42MaxLastComments = 15
+    remark42Theme = "light"
+    remark42PageTitle = ""
+    remark42Locale = "zh"
+    remark42ShowEmailSubscription = true
+    remark42ShowRssSubscription = true
+    remark42SimpleView = false
+    remark42NoFooter = false
+    # 说明：https://remark42.com/docs/configuration/frontend/
 
-    enablemsclarity = true
 
     ######################################
     # Google Analytics
@@ -1161,16 +1192,13 @@ uglyURLs = false
 
     displayShareOnText = false
 
-    shareOnTwitter = true
-    shareOnFacebook = true
-    shareOnLinkedIn = false
-    shareOnTelegram = true
-    shareOnWeibo = true
-    shareOnDouban = true
-    shareOnQQ = true
-    shareOnQzone = true
+    postShareItems = ["facebook", "mastodon", "fediverse", "twitter", "linkedin", "telegram", "weibo", "douban", "qq", "qzone", "pocket", "hackernews", "qrcode", "email"]
 
-    shareViaQRCode = true
+    # 从网络获取 Fediverse 实例列表用于输入建议
+    fetchFediverseInstances = false
+    # 说明：当开启 mastodon 或 fediverse 分享项
+    #      时建议开启。开启后构建时，数据需要从网
+    #      络下载，会带来额外的构建时间。
 
 
     ######################################
@@ -1278,13 +1306,13 @@ uglyURLs = false
     iconAnimation = true
 
     # 是否显示站点的作者名称
-    displaySiteAuthorName = false
+    displaySiteAuthorName = true
 
     # 是否显示 Hugo 和 MemE 的链接
     displayPoweredBy = true
 
     # 是否显示站点的版权信息
-    displaySiteCopyright = false
+    displaySiteCopyright = true
 
     # 自定义页脚（支持 Markdown）
     customFooter = ""
@@ -1416,10 +1444,10 @@ uglyURLs = false
     # 404 页面
 
     # 视频封面
-    fofPoster = "/static/11.png"
+    fofPoster = ""
 
     # 视频地址
-    fofVideoWebm = "/static/11.png"
+    fofVideoWebm = ""
     fofVideoMp4 = ""
     # 说明：视频地址可留空（""）
 
