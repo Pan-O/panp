@@ -70,7 +70,7 @@ mtd verify mt7981_abt-asr3000-fip-fixed-parts.bin FIP
 
 网络---无线---接口: ..apcli0.. | 类型: ..STA..（有两个任选其一即可）点击配置 开启AP客户端模式连接热点即可
 
-![router-setting](https://img.panp.cc/2024/10/6d6e74b99c3f8cd816f931390fa9b40a.jpg)
+![router-setting](https://img.panp.cc/2024/10/6d6e74b99c3f8cd816f931390fa9b40a.webp)
 
 这里直接使用打包好的ipk包，不需要再去编译，比较~~偷懒~~方便 来自[KyleRicardo/MentoHUST-OpenWrt-ipk](https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk)
 
@@ -89,14 +89,14 @@ opkg install mentohust_0.3.1-1_aarch64_cortex-a53.ipk
 
 如果用修改文件的方法去配置参数，在启动服务后会一直认证失败，而在putty中，失败的原因提示是乱码的。原因是因为putty默认的编码是utf-8，而错误原因的编码却是gb2312
 
-![utf8](https://img.panp.cc/2024/10/73e5233f5eabecf864b107723fdbd39a.jpg)
-![gb2312](https://img.panp.cc/2024/10/a354020072a438c81719a548c87c33e2.jpg)
+![utf8](https://img.panp.cc/2024/10/73e5233f5eabecf864b107723fdbd39a.webp)
+![gb2312](https://img.panp.cc/2024/10/a354020072a438c81719a548c87c33e2.webp)
 
 在修改编码后可以看到错误原因是因为密码错误，但是其实密码是对的，这里不清楚如何解决。所以建议使用命令行设置参数，直接用命令行设置参数并保存到配置文件是完全可行的
 
 在此配置参数之前建议安装mentohust的windows版，可以快速调整需要的参数，不用频繁修改文件 重启服务，一次性获得参数数据。
 
-![tool](https://img.panp.cc/2024/10/9577a175b3d73dd97cf06fcff4e67c6b.jpg)
+![tool](https://img.panp.cc/2024/10/9577a175b3d73dd97cf06fcff4e67c6b.webp)
 
 >用法:   ./mentohust [-选项][参数]
 >
